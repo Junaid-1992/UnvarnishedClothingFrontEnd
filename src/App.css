@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* body {
+  background-color: var(--clr-primary-light);
+  font-family: var(--ff-primary);
+}
+
+:root {
+  --fs-70: clamp(2.5rem, 3vw, 4.375rem);
+  --fs-50: clamp(2rem, 2.5vw, 3.125rem);
+  --fs-35: clamp(1.75rem, 2.2vw, 2.188rem);
+  --fs-30: clamp(1.5rem, 2.2vw, 1.875rem);
+  --fs-25: clamp(1.25rem, 2vw, 1.563rem);
+  --fs-20: clamp(1.125rem, 2vw, 1.25rem);
+  --fs-18: 1.125rem;
+  --fs-16: 1rem;
+  --fs-14: 0.938rem;
+  --fs-10: 0.6rem;
+  --clr-primary: #ffffff;
+  --clr-primary-light: #f2e9e4;
+  --clr-primary-vlight: #cecece;
+  --clr-primary-dark: #c9ada7;
+  --clr-primary-vdark: #9a8c98;
+  --clr-secondary: #000000;
+  --clr-tertiary: #22223b;
+  --clr-tertiary-light: #4a4e69;
+  --img-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --card-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  --radius-xl: 1.875rem;
+  --radius-lg: 1.25rem;
+  --radius-md: var(--fs-10);
+  --ff-primary: "Montserrat", system-ui;
+  --ff-secondary: "Inter", system-ui;
+  --ff-tertiary: "Source Sans 3", system-ui;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1620px;
+  width: 100%;
+
+  margin-inline: auto;
+}
+
+.btn {
+  cursor: pointer;
+  color: var(--btn-clr);
+  background-color: var(--btn-bg);
+  border: 2px solid var(--btn-bg);
+  transition: background-color 450ms ease;
+}
+.btn:hover {
+  background-color: transparent;
+  color: inherit;
+}
+
+.btn-primary {
+  font-size: var(--fs-25);
+  --btn-bg: var(--clr-tertiary);
+  --btn-clr: var(--clr-primary);
+  border-radius: var(--radius-lg);
+}
+
+.btn-secondary {
+  font-size: var(--fs-14);
+  --btn-bg: var(--clr-primary);
+  --btn-clr: var(--clr-secondary);
+  padding-inline: 1.5em;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-left: 1px solid var(--clr-primary-vlight);
+  font-family: inherit;
+}
+
+header {
+  background-color: var(--clr-primary);
+} */
+
+/* ===============Header Styles Start ================= */
+
+/* .header-main {
+  display: flex;
+  align-items: center;
+  gap: var(--fs-50);
+}
+
+.input-cont {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-inline-start: auto;
+  width: 30%;
+}
+
+.input-cont svg {
+  position: absolute;
+  width: var(--fs-30);
+  left: 5px;
+}
+
+.input-cont input {
+  border-radius: 30px;
+  padding-block: 0.5em;
+  padding-inline: var(--fs-35);
+  width: 100%;
+  background-color: var(--clr-primary-light);
+  border: none;
+  font-size: var(--fs-20);
+}
+
+.header-main ul {
+  display: flex;
+  gap: 1.5em;
+  font-size: var(--fs-20);
+  font-family: var(--ff-secondary);
+}
+.header-main li {
+  cursor: pointer;
+  color: var(--clr-tertiary);
+} */
+
+/* ===============Header Styles End ================= */
+
+/* ===============Footer Styles Start ================= */
+/* footer {
+  background-color: var(--clr-tertiary);
+}
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  color: var(--clr-primary-light);
+  padding-block: var(--fs-50);
+  border-bottom: 1px solid rgb(from var(--clr-primary) r g b / 0.4);
+}
+
+.footer-logo {
+  width: 6.3rem;
+}
+
+.footer-subscribe-cont {
+  max-width: 48ch;
+}
+
+.footer-subscribe-cont p {
+  font-size: var(--fs-16);
+  padding-block: 1.5em;
+  font-family: var(--ff-tertiary);
+  color: var(--clr-primary);
+}
+
+.footer-input-cont {
+  display: flex;
+  border: 1px solid var(--clr-primary-vlight);
+}
+
+.footer-input-cont input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  padding: 1rem 0.5rem;
+  font-size: var(--fs-16);
+}
+.footer-input-cont input:focus-visible {
+  outline: none;
+}
+.footer-copyright span {
+  color: var(--clr-primary);
+  font-size: calc(var(--fs-10) + 0.13rem);
+  font-family: var(--ff-tertiary);
+}
+
+.footer-copyright {
+  padding-block: var(--fs-14);
+}
+.footer-main h3 {
+  font-size: var(--fs-25);
+  padding-block-end: 1.2em;
+}
+
+.footer-main li + li {
+  padding-block-start: 0.5em;
+}
+
+.footer-main li {
+  font-size: var(--fs-18);
+  text-transform: capitalize;
+  font-family: var(--ff-secondary);
+  cursor: pointer;
+} */
+/* ===============Footer Styles End ================= */
